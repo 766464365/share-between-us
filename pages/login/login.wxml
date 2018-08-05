@@ -1,0 +1,8 @@
+<view class='login_container'>
+    <view class='login_container_logo'></view>
+    <view class='login_container_form'>
+        <input class='input' placeholder='请输入账号' bindinput='input_user'></input>
+        <input class='input' placeholder='请输入密码' bindinput='input_password'></input>
+    </view>
+    <button class='login_container_btn' bindtap='login_btn'>登陆</button>
+</view>
