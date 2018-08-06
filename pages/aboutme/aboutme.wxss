@@ -1,0 +1,97 @@
+/* pages/aboutme/aboutme.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.abm_container{
+  width: 100%;
+  height: 100%;
+}
+.abm_container_up{
+  width: 750rpx;
+  height: 220rpx;
+  background-color: rgb(15, 159, 255)
+}
+.abm_container_down{
+  width: 100%;
+  height: 976rpx;
+  z-index: -1;
+  background-color: rgb(242, 246, 247)
+}
+.abm_container_down_user_item{
+  width: 96%;
+  height: 16%;
+  border-radius: 2px;
+  margin-left: 2%;
+  margin-top: -1047rpx;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 1px 1px 1px gainsboro
+}
+.abm_container_down_user_item-image{
+  border-radius: 180px;
+  width: 130rpx;
+  height: 130rpx;
+  margin-left: 2%;
+  margin-top: -8%;
+  box-shadow: 0px 1px 1px 1px gainsboro;
+  background-color: wheat
+}
+.abm_container_down_user_item_phone{
+  margin-top: 2%;
+  float: right;
+  margin-right: 10%;
+  font-size: 13pt
+}
+.abm_container_down_user_item_address{
+  font-size: 11pt;
+  float: right;
+  margin-right: 10%;
+  right: 10% ;
+ 
+}
+.abm_container_down_address_item{
+width: 100%;
+height: 120rpx;
+margin-top: 10%;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start
+
+}
+.abm_container_down_account_item{
+margin-top: 2%;
+width: 100%;
+height: 120rpx;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start
+}
+.abm_container_down_orderlist_item{
+margin-top: 2%;
+width: 100%;
+height: 120rpx;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start
+}
+.text11{
+  visibility:  hidden
+}
+.abm_container_item_line_image_right{
+  position: absolute;
+  right: 32rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.abm_container_item_line_text_left{
+  font-size: 11pt;
+  margin-left: 32rpx;
+}

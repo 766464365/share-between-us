@@ -1,14 +1,49 @@
 {
   "pages":[
-      "pages/login/login",
+    "pages/login/login",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/aboutme/aboutme",
+    "pages/calculate/calculate",
+    "pages/express/express",
+    "pages/order/order"
     
   ],
+    "tabBar": {
+      "color": "#000000",
+      "selectedColor": "#00BFFF",
+      "backgroundColor": "#F8F8FF",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "drawable/btn_index_dis.png",
+          "selectedIconPath": "drawable/btn_index_nor.png"
+        },
+        {
+          "pagePath": "pages/order/order",
+          "text": "账单",
+          "iconPath": "drawable/btn_balabce_dis.png",
+          "selectedIconPath": "drawable/btn_balabce_nor.png"
+        },
+        {
+          "pagePath": "pages/calculate/calculate",
+          "text": "结算",
+          "iconPath": "drawable/btn_calculator_dis.png",
+          "selectedIconPath": "drawable/btn_calculator_nor.png"
+        },
+        {
+          "pagePath": "pages/aboutme/aboutme",
+          "text": "个人",
+          "iconPath": "drawable/btn_center_dis.png",
+          "selectedIconPath": "drawable/btn_center_nor.png"
+        }
+      ]
+    },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Share-between-us",
     "navigationBarTextStyle":"black"
   }
 }

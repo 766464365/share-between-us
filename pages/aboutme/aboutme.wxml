@@ -1,0 +1,30 @@
+<!--pages/aboutme/aboutme.wxml-->
+<view class="abm_container">
+  <view class="abm_container_up" >
+  </view>
+  
+  <view class="abm_container_down">
+    <text class='text11'>1111</text>
+    <view class='abm_container_down_address_item'>
+      <text class='abm_container_item_line_text_left'>地址簿</text>
+      <image class='abm_container_item_line_image_right' src='/drawable/btn_forward_nor.png'></image>
+    </view>
+    <view class='abm_container_down_account_item'>
+      <text class='abm_container_item_line_text_left'>账号管理</text>
+      <image class='abm_container_item_line_image_right' src='/drawable/btn_forward_nor.png'></image>
+    </view>
+    <view class='abm_container_down_orderlist_item'>
+      <text class='abm_container_item_line_text_left'>地址簿</text>
+      <image class='abm_container_item_line_image_right' src='/drawable/btn_forward_nor.png'></image>
+    </view>
+    
+  </view>
+
+
+  <view class="abm_container_down_user_item">
+    <image class="abm_container_down_user_item-image" ></image>
+    <text class="abm_container_down_user_item_phone">156********\n</text>
+    <text class="abm_container_down_user_item_address">\n宇宙地球亚洲中国广东</text>
+  </view>
+
+</view>

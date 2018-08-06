@@ -4,39 +4,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    user:'',
-    password:'',
-    status:false,
+    
   },
-  input_user:function(e){
-    this.setData({
-        user:e.detail.value,
-    })
-  },
-  input_password:function(e){
-      this.setData({
-          password: e.detail.value
-      })
-  },
-  login_btn:function(e){
-     
-      console.log(this.data.user)
-      console.log(this.data.password)
-      if(this.data.user==''&&this.data.password=='')
-      {
-          wx.showToast({
-              title: '请输入正确账户及密码',
-              icon: 'none',
-              duration: 2000
-          })
-      }
-      else{
-        console.log("adadad"),
-        wx.switchTab({
-          url: '/pages/index/index',
-        })
-      }
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
